@@ -15,7 +15,9 @@ const handlebars = expressHandlebars.create({ helpers });
 
 const sess = {
   secret: 'top secret',
-  cookie: {},
+  cookie: {
+    maxAge: 5 * 60 * 1000, // expires after 5 minutes
+  },
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({

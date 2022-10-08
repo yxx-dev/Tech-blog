@@ -1,27 +1,27 @@
 [
     {
         "title": "blog1",
-        "content": "placeholder1",
+        "content": "BLOGplaceholder1",
         "user_id": "1"
     },
     {
         "title": "blog2",
-        "content": "placeholder2",
+        "content": "BLOGplaceholder2",
         "user_id": "1"
     },
     {
         "title": "blog3",
-        "content": "placeholder3",
+        "content": "BLOGplaceholder3",
         "user_id": "2"
     },
     {
         "title": "blog4",
-        "content": "placeholder4",
+        "content": "BLOGplaceholder4",
         "user_id": "3"
     },
     {
         "title": "blog5",
-        "content": "placeholder5",
+        "content": "BLOGplaceholder5",
         "user_id": "3"
     }
 ]

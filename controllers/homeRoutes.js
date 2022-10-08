@@ -1,10 +1,17 @@
 const router = require('express').Router();
 const auth = require('../utils/auth');
+const { User, Blog } = require('../models')
 
 router.get('/', async (req, res) => {
-
-  
-  res.render('homepage');
+  try {
+    const blogData = await Blog.findAll();
+    const blogs = blogData.map((content) => content.get({ plain: true }));
+    res.render('homepage', {
+      blogs,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 router.get('/dashboard', auth, async (req, res) => {
@@ -12,7 +19,7 @@ router.get('/dashboard', auth, async (req, res) => {
     res.render('dashboard');
 
   } catch(err) {
-    res.status.json(err);
+    res.status(404).json(err);
   }
 
 });

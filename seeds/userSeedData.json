@@ -1,15 +1,18 @@
 [
     {
+        "id": "1",
         "name": "Jeff Bezos",
         "email": "jeff@amazon.com",
         "password": "0000000"
     },
     {
+        "id": "2",
         "name": "Yilun Xu",
         "email": "yilunxu@amazon.com",
         "password": "1111111"
     },
     {
+        "id": "3",
         "name": "Jeff2",
         "email": "jeff2@amazon.com",
         "password": "0000000"

@@ -18,6 +18,10 @@ const loginFormHandler = async (event) => {
       }
     }
   };
+
+  const signup = () => {
+    document.location.replace('/signup')
+  }
   
   document
     .querySelector('.login-form')
@@ -25,5 +29,5 @@ const loginFormHandler = async (event) => {
 
 document
     .querySelector('.signup')
-    .addEventListener('click', document.location('/signup'))
+    .addEventListener('click', signup)
   

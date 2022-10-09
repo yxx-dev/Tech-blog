@@ -9,3 +9,7 @@ body {
 /* body * {
   border: solid grey 1px;
 } */
+
+.nav-link {
+  border: solid grey 1px;
+}

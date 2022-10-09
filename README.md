@@ -5,7 +5,8 @@ A Content Management System (CMS) -style blog site similar to a Wordpress site, 
 Deployment: 
 
 Functions: 
-1. 
+1. Signup, login and logout 
+2. Session memeries
 
 ## Table of Contents
 NA

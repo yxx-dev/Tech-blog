@@ -1,0 +1,4 @@
+{{#each userBlogs as |userBlog| }}
+<div class="pt-2">Dashboard for {{userBlog.user.name}}</div>
+<div class="pt-2">{{userBlog.title}} (created on {{format_date userBlog.createdAt}})</div>
+{{/each}}

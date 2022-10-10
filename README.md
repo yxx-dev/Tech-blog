@@ -2,11 +2,12 @@
 
 ## Description
 A Content Management System (CMS) -style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. 
-Deployment: 
+Deployment: https://powerful-hamlet-95015.herokuapp.com/
 
 Functions: 
 1. Signup, login and logout 
 2. Session memeries
+3. User-specific dashboard
 
 ## Table of Contents
 NA
